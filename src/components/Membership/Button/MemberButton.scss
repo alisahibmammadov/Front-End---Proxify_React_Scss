@@ -1,0 +1,13 @@
+.memberButton{
+    padding: 13px 60px;
+    background: #5258fb;
+    border: transparent;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.memberButton:hover{
+    box-shadow: -1px 1px 1px #5258fb50,
+                    -2px 2px 10px #5258fb60;
+}

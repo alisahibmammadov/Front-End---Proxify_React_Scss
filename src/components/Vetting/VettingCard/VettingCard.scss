@@ -1,0 +1,59 @@
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+.vetting_card {
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 50%;
+  
+  .card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 410px;
+    height: 344px;
+    color: #000;
+    padding-left: 20px;
+    padding-top: 40px;
+    border-radius: 15px;
+    -webkit-user-select: none;
+    margin-left: 50px;
+    span{
+        width: 4rem;
+        height: 2rem;
+        border-radius: 5px;
+        background: #f0f1fd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #5258fb;
+        font-weight: 700;
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+    h1{
+        color: #5258fb;
+        font-size: 1.7rem;
+    }
+    p{
+        width: 95%;
+        font-size: 1.1rem;
+    }
+  }
+  .card:hover{
+    background: #5258fb;
+    cursor: grab;
+    h1,p{
+        color: #fff;
+    }
+  }
+
+  .alice-carousel__dots {
+    display: none;
+  }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    display: none;
+  }
+}

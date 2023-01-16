@@ -1,0 +1,18 @@
+.vetting_card {
+  display: flex;
+  color: #fff;
+  width: 100%;
+  background: red;
+  gap: 10px;
+}
+.vetting_card .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  color: black;
+}
+.vetting_card .card .alice-carousel__dots {
+  display: none;
+}/*# sourceMappingURL=VettingCard.css.map */

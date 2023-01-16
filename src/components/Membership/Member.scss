@@ -1,0 +1,53 @@
+.memberShip {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #15172f;
+  background: #222222;
+  font-family: "Roboto", sans-serif;
+  .memberShip_logo {
+    .logo {
+      width: 50px;
+    }
+  }
+  .memberShip_dev {
+    text-align: center;
+    width: 60%;
+    p {
+      font-size: 4.2rem;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+  .memberShip_offer {
+    width: 37%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: #fff;
+    font-size: 0.8rem;
+    i {
+      color: green;
+      padding: 5px;
+    }
+  }
+  .memberShip_button {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .memberShip_skill {
+    p {
+      color: #fff;
+      font-size: 0.8rem;
+      span {
+        color: #fff;
+        text-decoration: underline;
+        padding-left: 2px;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+}

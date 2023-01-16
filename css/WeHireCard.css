@@ -1,0 +1,36 @@
+.weHire_cards {
+  display: flex;
+}
+.weHire_cards .weHire_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 25rem;
+  height: 22rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.weHire_cards .weHire_card span {
+  color: #5258fb;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.weHire_cards .weHire_card h1 {
+  font-size: 1.8rem;
+  color: #5258fb;
+}
+.weHire_cards .weHire_card p {
+  width: 80%;
+  text-align: center;
+}
+.weHire_cards .weHire_card:hover {
+  background: #5258fb;
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+.weHire_cards .weHire_card:hover span, .weHire_cards .weHire_card:hover h1, .weHire_cards .weHire_card:hover p {
+  color: #fff;
+}/*# sourceMappingURL=WeHireCard.css.map */

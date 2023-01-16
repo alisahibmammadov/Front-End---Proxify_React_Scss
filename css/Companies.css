@@ -1,0 +1,36 @@
+.company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 60vh;
+  width: 100%;
+  background: #5258fb;
+}
+.company .company_head h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+.company .company_promotion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company .company_promotion p {
+  width: 40%;
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: center;
+}
+.company .companies {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.company .companies p {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+}/*# sourceMappingURL=Companies.css.map */

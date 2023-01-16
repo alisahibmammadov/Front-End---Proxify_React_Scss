@@ -1,0 +1,39 @@
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+    width: 100%;
+    background: #5258fb;
+    .company_head{
+        h1{
+            font-size: 2rem;
+            color: #fff;
+        }
+    }
+    .company_promotion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            width: 40%;
+            font-size: 1.1rem;
+            color: #fff;
+            text-align: center;
+        }
+    }
+    .companies{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        p{
+            font-size: 3rem;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    
+}

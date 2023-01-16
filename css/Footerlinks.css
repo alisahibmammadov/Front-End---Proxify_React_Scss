@@ -1,0 +1,23 @@
+.footer_links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footer_links div img {
+  width: 100px;
+  filter: grayscale(100%);
+}
+.footer_links div h1 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.footer_links div p {
+  color: #8e8e8e;
+  cursor: pointer;
+}
+.footer_links div p i {
+  padding-left: 5px;
+  font-size: 0.7rem;
+}/*# sourceMappingURL=FooterLinks.css.map */

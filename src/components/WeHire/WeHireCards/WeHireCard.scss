@@ -1,0 +1,36 @@
+.weHire_cards{
+    display: flex;
+    .weHire_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 25rem;
+        height: 22rem;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+        span {
+          color: #5258fb;
+          font-size: 1.6rem;
+          font-weight: 700;
+        }
+        h1 {
+          font-size: 1.8rem;
+          color: #5258fb;
+        }
+        p {
+          width: 80%;
+          text-align: center;
+        }
+      }
+      .weHire_card:hover{
+        background: #5258fb;
+        cursor: pointer;
+        transition: .1s linear;
+        span,h1,p{
+            color: #fff;
+        }
+    }
+}
